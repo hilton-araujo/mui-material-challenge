@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+@layer base {
+  :root {
+    --color-primary: #1d4ed8;
+    --color-secondary: #9333ea;
+    --color-gray-light: #f3f4f6;
+    --color-gray-dark: #374151;
+  }
+}
